@@ -20,6 +20,7 @@ app.use(express.json());
 
 //Rutas
 app.use('/api/auth', require('./routes/auth')) //todo lo que este archivo valla a exporta lo habilita en la ruta definida en el primer argumento
+app.use('/api/events', require('./routes/events'))
 
 //TODO: CRUD: Eventos
 
